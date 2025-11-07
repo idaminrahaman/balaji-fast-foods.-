@@ -3,7 +3,7 @@
 ### 📊 Tools Used  
 - **MySQL** – for data cleaning, transformation, and analysis  
 - **Power BI** – for dashboard creation and visualization  
-- **CSV / Excel** – for raw data storage and import  
+- **CSV** – for raw data storage and import  
 
 ---
 
@@ -87,9 +87,9 @@ An interactive Power BI dashboard was created to visualize all SQL findings.
 
 ## ⚙️ How to Run the Project  
 
-1. Download the `balaji_restaurant.sql` file from this repository.  
+1. Download the `02_schema.sql` file from this repository.  
 2. Place the dataset (`main_file.csv`) inside your MySQL **Uploads** directory.  
-3. Open MySQL Workbench and execute the script sequentially.  
+3. Open MySQL Workbench or vs code and execute the script sequentially.  
 4. Use the generated dataset for Power BI dashboard creation.  
 
 ---
@@ -98,25 +98,11 @@ An interactive Power BI dashboard was created to visualize all SQL findings.
 
 | File Name | Description |
 |------------|-------------|
-| `balaji_restaurant.sql` | Full SQL script (database creation, cleaning, and analysis) |
+| `02_schema.sql` | Full SQL script (database creation, cleaning, and analysis) |
 | `main_file.csv` | Raw transaction dataset |
-| `dashboard.pbix` | Power BI dashboard file |
+| `visualization.pbix` | Power BI dashboard file |
 | `README.md` | Project documentation |
 
----
-
-## 🚀 Future Improvements  
-
-- Build a **Python-based ETL pipeline** for automation.  
-- Add **DAX-based KPIs** in Power BI for deeper insights.  
-- Implement **predictive analytics** to forecast future revenue trends.  
-
----
-
-## 🔗 Project Link  
-
-📂 View the complete project and scripts on GitHub:  
-👉 **[Insert your GitHub Repository Link here]**
 
 ---
 
@@ -125,9 +111,5 @@ An interactive Power BI dashboard was created to visualize all SQL findings.
 **Idamin Rahaman**  
 _Data Analyst | SQL & Power BI Enthusiast_  
 
-📧 [Insert your Email or LinkedIn Profile Link]  
+ LinkedIn: www.linkedin.com/in/idamin-rahaman-b754322aa
 
----
-
-### 🏷️ Tags  
-`#SQL` `#PowerBI` `#DataAnalytics` `#BusinessIntelligence` `#PortfolioProject` `#RevenueAnalysis`  
